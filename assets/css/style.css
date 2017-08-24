@@ -26,12 +26,61 @@ html body {
 
 
 
-/*Adam Kojak*/
+
+/*Adam Kojak CSS ANIMATION*/
 
 .nav1 {
     font-size: 200%;
     font-family: 'Lobster', cursive;
+    width: 170px;
+    height: 20px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite;
+    /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
 }
+
+
+/* Safari 4.0 - 8.0 */
+
+#div1 {
+    -webkit-animation-timing-function: linear;
+}
+
+
+/* Standard syntax */
+
+#div1 {
+    animation-timing-function: linear;
+}
+
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 300px;
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 300px;
+    }
+}
+
 
 
 
