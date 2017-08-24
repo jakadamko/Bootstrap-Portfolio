@@ -25,12 +25,14 @@ html body {
 
 
 
+
 /*Adam Kojak*/
 
 .nav1 {
     font-size: 200%;
     font-family: 'Lobster', cursive;
 }
+
 
 
 
@@ -97,4 +99,16 @@ i:hover {
 #fo2,
 #fo3 {
     margin: 20px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.message {
+    height: 300px;
+}
+
+h4 {
+    text-align: center;
 }
